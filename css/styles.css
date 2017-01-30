@@ -1,0 +1,98 @@
+.navbar-brand h1 { /*Food LLC-brand name-Header*/
+	font-family: serif;
+	color: ##0FCDDA;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand {
+	margin-left: 20px;
+}
+
+.navbar-brand a:hover, .nav-brand a:focus {
+	text-decoration: none; /*Do not display as url with underline*/
+}
+
+.text-center {
+	color: #7E131D;
+}
+
+h2.text-center {
+	color: #7E131D;
+	font-size: 1.7em;
+	font-weight: bold;	
+}
+
+h3.text-center {
+	color: #7FEFFF;
+	font-size: 1.4em;
+}
+
+.content-cell {
+	background-color: #D93300;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+}
+
+.content-cell h2 {
+	margin-top: -5px;
+}
+
+
+div > p {
+	text-align: justify;
+	color: #FFEECC;
+}
+
+
+/* Views: Desktop- MD , Tablet- SM,  Mobile - XS*/
+
+/* Desktop, Tablet - MD/SM*/
+@media (min-width:768px){
+	#collapsable-nav {
+		visibility: hidden; /*Don't display Nav. for desktop or tablet */
+	}
+}
+
+/* Mobile, extra small - XS) */
+@media (max-width:767px){
+
+	#collapsable-nav {
+		background-color: #D93300;
+	}
+	
+	.navbar-brand {
+		margin-left: 20px;
+	}
+	
+	.content-cell {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	#nav-list {		
+		margin-bottom: 1px;
+		margin-top: 0px;
+	}
+	
+	#nav-list li{
+		text-align: center;
+		border: 1px solid #FFEECC;
+		margin-bottom:-1px;
+	}
+
+	.nav.navbar-nav.navbar-right li a {
+    	color: #02054A; /*Change text color in navbar*/
+	}
+
+	#nav-list li:hover{
+		background-color: #FFB272;
+		font-weight: bold;
+	}
+
+	/* Super extra small devices Only - Super XS */
+	   /* No css rules */ 
